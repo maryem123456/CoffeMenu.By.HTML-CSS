@@ -1,0 +1,72 @@
+/* {
+  box-sizing: border-box;
+}*/
+.famille {
+  background-image: url('caffe2.jpg');
+}
+.container{
+  background-color: rgba(40, 116, 73, 0.75);
+  width:50%;
+  height: 150%;
+  margin: auto;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav h1{
+  font-size:40px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+nav p{
+  font-size: 20px;
+  font-style: italic;
+}
+hr{
+  border: 0;/* Remove the default border */
+  height: 5px; /* Set the thickness of the line */
+  background-color: rgba(2, 95, 3, 0.942); /* Set the color with transparency */
+  
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second img{
+  height: 50px;
+    width: 65px;
+}
+.second h2{
+  font-size: 30px;
+  font-style:italic;
+}
+.third{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left:15px;
+  margin-right:15px;
+  font-size:25px;
+  font-style:solid;}
+  .third {
+    margin-bottom: 10px; /* Adjust the space between divs */
+    padding: 10px; /* Optional: Add padding inside the divs */
+    border: 0px solid #ddd; /* Optional: Add a border for visibility */
+}
+
+.third p {
+  margin: 0; /* Remove default margins from <p> tags */
+  padding: 0; /* Remove default padding from <p> tags */
+}
+.finaly {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 8px;
+}
+.finaly a{
+  color:black;
+  
+}
